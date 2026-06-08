@@ -8,6 +8,7 @@ catcher_move_speed_2 = -20
 canvas_width = 800
 canvas_height = 400
 
+messagebox.showinfo('tip', 'press the ? or / to go to tutorial')
 #this makes the background and the title
 root = Tk()
 root.title('🚀 dodger')
@@ -19,7 +20,6 @@ c.create_oval(400, 10, 1000, 120, fill='white', width=0)
 c.create_rectangle(90, 300, 100, 200, fill='brown', width=0)
 c.create_oval(50, 250, 140, 200, fill='green', width=0)
 c.pack()
-
 
 #informasion about the eggs
 color_cycle = cycle(
